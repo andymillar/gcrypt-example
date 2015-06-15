@@ -1,6 +1,6 @@
-CXX = clang++
+CXX = gcc
 LDFLAGS = -lgcrypt
-CXXFLAGS = -std=c++11 -Wall -Wextra -g
+CXXFLAGS = -Wall -Wextra -g -lstdc++
 
 BINS = keygen main
 
